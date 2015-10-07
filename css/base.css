@@ -1,0 +1,45 @@
+body{
+  font-family: Verdana, "游ゴシック", YuGothic, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  font-size: 18px;
+  padding: 0 2rem;
+  color: #333;
+}
+header{
+  display: flex;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+h1{
+  font-size: 100%;
+  margin: 0;
+  flex-grow: 3;
+}
+nav > ul{
+  padding: 0;
+  display: flex;
+}
+nav > ul > li{
+  display: block;
+  list-style: none;
+  margin: 0 .5rem;
+  font-size: 88%;
+}
+nav a{
+  color: #339;
+  text-decoration: none;
+}
+nav a:hover{
+  text-decoration: underline;
+}
+table{
+  width: 100%;
+}
+thead > tr{
+  background-color: #ccc;
+}
+tr:nth-child(even){
+  background-color: #eee;
+}
+th, td{
+  padding: 1rem;
+}
